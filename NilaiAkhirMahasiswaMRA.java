@@ -56,6 +56,8 @@ public class NilaiAkhirMahasiswaMRA {
             System.out.println("ANDA TIDAK LULUS");
         }
 
+        sc.close();
+
         
     }
     
