@@ -19,9 +19,9 @@ public class MahasiswaMain18 {
         mhs2.tampilkanInformasi();
 
         
-        Mahasiswa18 mhs3 = new Mahasiswa18("Superman", "2141720150", 3.25, "TI 2L");
-        mhs2.updateIpk(3.30);
-        mhs2.tampilkanInformasi();
+        Mahasiswa18 mhs3 = new Mahasiswa18("Superman", "2141720150", 3.10, "TI 2L");
+        mhs3.updateIpk(3.40);
+        mhs3.tampilkanInformasi();
     }
     
 }
