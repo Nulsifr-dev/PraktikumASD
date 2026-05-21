@@ -90,7 +90,7 @@ public class DLLAntrian {
         }
 
         size--;
-        System.out.println("Maka antrian harus berkurang.");
+        System.out.println("Maka antrian harus dikurangi.");
     }
 
     public void sortPesanan() {
