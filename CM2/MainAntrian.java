@@ -9,11 +9,11 @@ public class MainAntrian {
         DLLAntrian dll = new DLLAntrian();
 
         System.out.println("=== Inisialisasi Data Antrian Awal ===");
-        Pembeli Qcust1 = new Pembeli(0, "Ainra", "08224500000");
+        Pembeli Qcust1 = new Pembeli(0, "Xavier", "08123446789");
         dll.addLastObject(Qcust1);
-        Pembeli Qcust2 = new Pembeli(0, "Danra", "08224511111");
+        Pembeli Qcust2 = new Pembeli(0, "Yuda", "08567896767");
         dll.addLastObject(Qcust2);
-        Pembeli Qcust3 = new Pembeli(0, "Sanri", "08224522222");
+        Pembeli Qcust3 = new Pembeli(0, "Zaki", "08991234567");
         dll.addLastObject(Qcust3);
         System.out.println("======================================\n");
 
@@ -37,6 +37,7 @@ public class MainAntrian {
                 case 1:
                     System.out.print("Nama Pembeli : ");
                     String nama = sc.nextLine();
+
                     System.out.print("No HP        : ");
                     String hp = sc.nextLine();
 
@@ -51,8 +52,10 @@ public class MainAntrian {
                     System.out.print("Kode Pesanan : ");
                     int kode = sc.nextInt();
                     sc.nextLine();
+
                     System.out.print("Nama Pesanan : ");
                     String namaPesanan = sc.nextLine();
+
                     System.out.print("Harga        : ");
                     int harga = sc.nextInt();
                     sc.nextLine();
