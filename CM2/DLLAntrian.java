@@ -73,7 +73,7 @@ public class DLLAntrian {
 
     public void remove(Pesanan pesanan) {
         if (isEmpty()) {
-            System.out.println("Antrian kosong, tidak ada pelanggan yang bisa dilayani.");
+            System.out.println("Antrian kosong, tidak ada pelanggan yang perlu dilayani.");
             return;
         }
 
