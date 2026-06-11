@@ -18,15 +18,12 @@ public class KategoriTreeMain17 {
         tree.root.addChild(fashion);
         tree.root.addChild(makanan);
 
-        // Level 2: Subkategori Elektronik
         elektronik.addChild(new NodeKategori17(new Kategori17("Smartphone")));
         elektronik.addChild(new NodeKategori17(new Kategori17("Laptop")));
 
-        // Level 2: Subkategori Fashion
         fashion.addChild(new NodeKategori17(new Kategori17("Pria")));
         fashion.addChild(new NodeKategori17(new Kategori17("Wanita")));
 
-        // Level 2: Subkategori Makanan
         makanan.addChild(new NodeKategori17(new Kategori17("Snack")));
         makanan.addChild(new NodeKategori17(new Kategori17("Minuman")));
 
@@ -38,15 +35,10 @@ public class KategoriTreeMain17 {
         System.out.println("=== SOAL 2: TRAVERSAL PREORDER ===");
         List<String> listHasil = new ArrayList<>();
         tree.traversePreOrder(tree.root, listHasil);
-        
-        // Menggabungkan teks menggunakan separator panah " → " sesuai permintaan soal
+
         System.out.println(String.join(" → ", listHasil));
         System.out.println();
 
-
-        // ==========================================
-        // JAWABAN SOAL 3: ANALISIS TREE
-        // ==========================================
         System.out.println("=== SOAL 3: ANALISIS TREE ===");
         
         System.out.println("a. Root Node         : TOKO ONLINE");

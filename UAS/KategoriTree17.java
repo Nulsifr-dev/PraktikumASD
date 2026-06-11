@@ -4,7 +4,7 @@ import java.util.List;
 
 public class KategoriTree17 {
     NodeKategori17 root;
-
+    
     public KategoriTree17() {
         root = null;
     }
